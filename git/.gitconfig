@@ -1,0 +1,20 @@
+[user]
+	name = Mark Holland
+	email = mark@partiallogic.com
+	signingkey = 8FDA4F0610323A3A
+[push]
+	default = simple
+[alias]
+        findb = "!f(){ git branch -ra | grep $1; }; f"
+	commend = commit --amend --no-edit
+	st = status --short --branch
+	grog = log --graph --abbrev-commit --decorate --all --format=format:\"%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(dim white) - %an%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n %C(white)%s%C(reset)\"
+        ls = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate
+        ll = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --numstat
+        lasttag = describe --tags --abbrev=0
+        la = "!git config -l | grep alias | cut -c 7-"
+[core]
+	editor = vim
+	autocrlf = input
+[commit]
+	gpgsign = true
