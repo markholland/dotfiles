@@ -18,6 +18,9 @@ stow zsh
 
 open Snazzy.itermcolors
 
+# Vundle Vim package manager
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
-
+# Pathogen Vim package manager
+mkdir -p ~/.vim/autoload ~/.vim/bundle && \
+    curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
