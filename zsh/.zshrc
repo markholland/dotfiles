@@ -10,6 +10,7 @@ DISABLE_UNTRACKED_FILES_DIRTY="true"
 
 plugins=(git gitfast adb last-working-dir)
 
+ZSH_DISABLE_COMPFIX=true
 source $ZSH/oh-my-zsh.sh
 source ~/dotfiles/zsh/.zsh/aliases.zsh
 
