@@ -14,6 +14,8 @@ ZSH_DISABLE_COMPFIX=true
 source $ZSH/oh-my-zsh.sh
 source ~/dotfiles/zsh/.zsh/aliases.zsh
 
+eval "$(fnm env --multi)"
+
 export ANDROID_HOME="/Users/markholland/Library/Android/sdk"
 
 export PATH=$PATH:${ANDROID_HOME}/tools:${ANDROID_HOME}/tools/bin:${ANDROID_HOME}/build-tools/28.0.3:${ANDROID_HOME}/platform-tools
