@@ -19,6 +19,7 @@ cask "audirvana"
 cask "authy"
 cask "calibre"
 cask "charles"
+cask "dash"
 cask "discord"
 cask "docker-edge"
 cask "firefox-developer-edition"
@@ -30,14 +31,17 @@ cask "insomnia"
 cask "iterm2"
 cask "karabiner-elements"
 cask "keybase"
+cask "omnifocus"
 cask "postico"
+cask "sf-symbols"
 cask "slack"
 cask "visual-studio-code"
-mas "tweetbot", id: 1384080005
-mas "reeder", id: 1449412482
+mas "apple-developer", id: 640199958
+mas "boop", id: 1518425043
+mas "deliveries", id: 290986013
+mas "keynote", id: 409183694
 mas "numbers", id: 409203825
 mas "pages", id: 409201541
-mas "keynote", id: 409183694
+mas "reeder", id: 1449412482
 mas "the-unarchiver", id: 425424353
-mas "boop", id: 1518425043
-mas "apple-developer", id: 640199958
+mas "tweetbot", id: 1384080005
