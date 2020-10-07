@@ -1,7 +1,7 @@
 [user]
 	name = Mark Holland
 	email = mark@partiallogic.com
-	signingkey = CD3971E9E22788E6
+	signingkey = D82A6DFB2698A7BF
 [push]
 	default = simple
 [alias]
