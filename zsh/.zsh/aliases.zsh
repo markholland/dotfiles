@@ -16,3 +16,11 @@ alias gti="git"
 alias android_emulator="cd ~/Library/Android/sdk/tools; ./emulator -avd Nexus_5X_API_28_x86 &"
 
 alias reverseProxy="ssh -R 80:localhost:3000 serveo.net"
+
+alias startWeb="env BROWSER=Firefox\ Developer\ Edition expo start:web"
+
+alias recordSim="xcrun simctl io booted recordVideo file.mov"
+
+# Mixie
+alias initDb='docker exec -it mixie-backend_mixieapp-mysql_1 mysql -u root -ppassword mixie -e "$(cat ./mixie-db.sql)"'
+alias startServer='./mvnw spring-boot:run -Dspring-boot.run.arguments=--server.port=8081,--spring.profiles.active=dev'
