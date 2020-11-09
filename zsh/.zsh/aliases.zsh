@@ -18,6 +18,7 @@ alias android_emulator="cd ~/Library/Android/sdk/tools; ./emulator -avd Nexus_5X
 alias reverseProxy="ssh -R 80:localhost:3000 serveo.net"
 
 alias startWeb="env BROWSER=Firefox\ Developer\ Edition expo start:web"
+alias startMobile="env BROWSER=Firefox\ Developer\ Edition expo start"
 
 alias recordSim="xcrun simctl io booted recordVideo file.mov"
 
