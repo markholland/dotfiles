@@ -14,7 +14,7 @@ ZSH_DISABLE_COMPFIX=true
 source $ZSH/oh-my-zsh.sh
 source ~/dotfiles/zsh/.zsh/aliases.zsh
 
-eval "$(fnm env --multi)"
+eval "$(fnm env)"
 
 export ANDROID_HOME="/Users/markholland/Library/Android/sdk"
 
