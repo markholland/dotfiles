@@ -17,6 +17,7 @@ source ~/dotfiles/zsh/.zsh/aliases.zsh
 eval "$(fnm env)"
 
 export ANDROID_HOME="/Users/markholland/Library/Android/sdk"
+export JAVA_HOME=$(/usr/libexec/java_home -v 1.8.0)
 
 export PATH=$PATH:${ANDROID_HOME}/tools:${ANDROID_HOME}/tools/bin:${ANDROID_HOME}/build-tools/28.0.3:${ANDROID_HOME}/platform-tools
 export PATH="/usr/local/opt/ruby/bin:$PATH"
