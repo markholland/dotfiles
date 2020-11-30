@@ -15,10 +15,10 @@ alias gti="git"
 
 alias android_emulator="cd ~/Library/Android/sdk/tools; ./emulator -avd Nexus_5X_API_28_x86 &"
 
-alias reverseProxy="ssh -R 80:localhost:3000 serveo.net"
+alias reverseProxy="ssh -R 80:localhost:19006 ssh.localhost.run"
 
-alias startWeb="env BROWSER=Firefox\ Developer\ Edition expo start:web"
-alias startMobile="env BROWSER=Firefox\ Developer\ Edition expo start"
+alias startWeb="cd ~/Documents/mixie/mixie-web/ && env BROWSER=Firefox\ Developer\ Edition expo start:web"
+alias startMobile="cd ~/Documents/mixie/mixie-mobile/ && env BROWSER=Firefox\ Developer\ Edition expo start"
 
 alias recordSim="xcrun simctl io booted recordVideo file.mov"
 

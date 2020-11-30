@@ -19,10 +19,14 @@
 	program = /usr/local/MacGPG2/bin/gpg2
 [user]
 	useConfigOnly = true
-[user "github"]
+[user "github-old"]
 	name = Mark Holland
 	email = mark@partiallogic.com
 	signingkey = D82A6DFB2698A7BF
+[user "github"]
+	name = Mark Holland
+	email = mark@markholland.dev
+	signingkey = 6BC7BC1A74F2CA10
 [user "gitlab"]
 	name = Mark Holland
 	email = mark.holland@mixiedigital.com
