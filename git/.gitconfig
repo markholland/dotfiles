@@ -16,18 +16,14 @@
 [commit]
 	gpgsign = true
 [gpg]
-	program = /usr/local/MacGPG2/bin/gpg2
+	program = gpg2
 [user]
 	useConfigOnly = true
-[user "github-old"]
-	name = Mark Holland
-	email = mark@partiallogic.com
-	signingkey = D82A6DFB2698A7BF
 [user "github"]
 	name = Mark Holland
 	email = mark@markholland.dev
-	signingkey = 6BC7BC1A74F2CA10
+	signingkey = 077F9557C0A85884
 [user "github-catenda"]
 	name = Mark Holland
 	email = mark.holland@catenda.no
-	signingkey = BAC4C71C9A35FB21
+	signingkey = C2CF6E0BA8F6DEF0
