@@ -19,11 +19,6 @@ eval "$(fnm env)"
 export ANDROID_HOME="/Users/markholland/Library/Android/sdk"
 export JAVA_HOME=$(/usr/libexec/java_home -v 1.8.0)
 
-export PATH=$PATH:${ANDROID_HOME}/tools:${ANDROID_HOME}/tools/bin:${ANDROID_HOME}/build-tools/28.0.3:${ANDROID_HOME}/platform-tools
-export PATH="/usr/local/opt/ruby/bin:$PATH"
-
-export N_PREFIX="$HOME/n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PREFIX/bin"  # Added by n-install (see http://git.io/n-install-repo).
-
 # zsh highlighting
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 ZSH_HIGHLIGHT_STYLES[globbing]='fg=yellow'

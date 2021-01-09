@@ -31,7 +31,3 @@
 	name = Mark Holland
 	email = mark.holland@catenda.no
 	signingkey = BAC4C71C9A35FB21
-[user "gitlab"]
-	name = Mark Holland
-	email = mark.holland@mixiedigital.com
-	signingkey = 0430A544E6C8F905
