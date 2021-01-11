@@ -17,6 +17,11 @@ source ~/dotfiles/zsh/.zsh/aliases.zsh
 eval "$(fnm env)"
 
 export ANDROID_HOME="/Users/markholland/Library/Android/sdk"
+export ANDROID_SDK_ROOT="$HOME/Library/Android/sdk"
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/tools/bin
+export PATH=$PATH:$ANDROID_HOME/platform-tools
 export JAVA_HOME=$(/usr/libexec/java_home -v 1.8.0)
 
 # zsh highlighting

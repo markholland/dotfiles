@@ -18,6 +18,9 @@
       },
       "schniz/tap": {
         "revision": "ac3c440413f74b0b75a041d63f75c1bcddf98107"
+      },
+      "facebook/fb": {
+        "revision": "34e6b440879d285555b672a94ab151e30866e0d1"
       }
     },
     "brew": {
@@ -320,7 +323,24 @@
           }
         }
       },
-      "gnupg2": null
+      "gnupg2": null,
+      "yarn": {
+        "version": "1.22.10",
+        "bottle": false
+      },
+      "idb-companion": {
+        "version": "1.0.14",
+        "bottle": {
+          "cellar": ":any",
+          "prefix": "/usr/local",
+          "files": {
+            "mojave": {
+              "url": "https://github.com/facebook/idb/releases/download/v1.0.14/idb-companion-1.0.14.mojave.bottle.tar.gz",
+              "sha256": "b2ee634e7f04179c392217347c2f6cbd3542c2bdb1a113fefa803c3f01f80e53"
+            }
+          }
+        }
+      }
     },
     "cask": {
       "1password": {
@@ -501,6 +521,12 @@
         "version": "1.52.1",
         "options": {
           "full_name": "visual-studio-code"
+        }
+      },
+      "flipper": {
+        "version": "0.70.0",
+        "options": {
+          "full_name": "flipper"
         }
       }
     },

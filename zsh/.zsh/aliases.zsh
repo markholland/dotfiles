@@ -19,3 +19,4 @@ alias reverseProxy="ssh -R 80:localhost:19006 ssh.localhost.run"
 
 alias recordSim="xcrun simctl io booted recordVideo file.mov"
 
+alias androidReverse="adb -s FA7A41A01597 reverse tcp:8081 tcp:8081"
