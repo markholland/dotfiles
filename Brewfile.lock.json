@@ -2,7 +2,7 @@
   "entries": {
     "tap": {
       "homebrew/core": {
-        "revision": "c01e0d67406094febb52a24f910044a755d8452c"
+        "revision": "8a6807be6abb44634e7d6d153348b6bba2a5ddc6"
       },
       "homebrew/bundle": {
         "revision": "72f41aae9b14d3603dd6d9a4e6bdecd871b5310a"
@@ -11,10 +11,10 @@
         "revision": "7a7d7416d8a4573b358649f39504057f6d5b1c8c"
       },
       "homebrew/cask-drivers": {
-        "revision": "e534935261bf911ffb19f8f6dd8a2cce6c9d5a16"
+        "revision": "541f3c09788a657b577623db2ce7880c716fd64c"
       },
       "homebrew/cask-versions": {
-        "revision": "c221a583cf7e86dacbfc7451f57f3daa6c3e00da"
+        "revision": "32f8b26d584d1f243242277424052310965dc82c"
       },
       "schniz/tap": {
         "revision": "ac3c440413f74b0b75a041d63f75c1bcddf98107"
@@ -340,6 +340,10 @@
             }
           }
         }
+      },
+      "diff-so-fancy": {
+        "version": "1.3.0",
+        "bottle": false
       }
     },
     "cask": {
@@ -528,6 +532,12 @@
         "options": {
           "full_name": "flipper"
         }
+      },
+      "zeplin": {
+        "version": "3.12,1061",
+        "options": {
+          "full_name": "zeplin"
+        }
       }
     },
     "mas": {
@@ -548,7 +558,7 @@
       "big_sur": {
         "HOMEBREW_VERSION": "2.7.2",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "c01e0d67406094febb52a24f910044a755d8452c",
+        "Homebrew/homebrew-core": "8a6807be6abb44634e7d6d153348b6bba2a5ddc6",
         "CLT": "12.3.0.0.1.1607026830",
         "Xcode": "12.3",
         "macOS": "11.1"
