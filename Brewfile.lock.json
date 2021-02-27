@@ -2,74 +2,70 @@
   "entries": {
     "tap": {
       "homebrew/core": {
-        "revision": "8a6807be6abb44634e7d6d153348b6bba2a5ddc6"
+        "revision": "0ff720707884f77f774b20a7e9d1d9060a4d45f3"
       },
       "homebrew/bundle": {
-        "revision": "72f41aae9b14d3603dd6d9a4e6bdecd871b5310a"
+        "revision": "5d4ea9e0189c3684b64614fe9db8966d64837dfd"
       },
       "homebrew/services": {
-        "revision": "7a7d7416d8a4573b358649f39504057f6d5b1c8c"
+        "revision": "594331628a5931aef28fb7e3b3c0548634a3ce2b"
       },
       "homebrew/cask-drivers": {
-        "revision": "541f3c09788a657b577623db2ce7880c716fd64c"
+        "revision": "30d81e0baf8913bc4aeb823208c799389e033717"
       },
       "homebrew/cask-versions": {
-        "revision": "32f8b26d584d1f243242277424052310965dc82c"
+        "revision": "eba48f97f5210cef793de2c7341b50a5b89c3fad"
       },
       "schniz/tap": {
         "revision": "ac3c440413f74b0b75a041d63f75c1bcddf98107"
       },
       "facebook/fb": {
-        "revision": "34e6b440879d285555b672a94ab151e30866e0d1"
+        "revision": "2bc619cf71c1d8e3368ff56cc1611c3a47a9c939"
       }
     },
     "brew": {
       "ffmpeg": {
-        "version": "4.3.1_8",
+        "version": "4.3.1_9",
         "bottle": {
           "cellar": "/usr/local/Cellar",
           "prefix": "/usr/local",
           "files": {
             "big_sur": {
-              "url": "https://homebrew.bintray.com/bottles/ffmpeg-4.3.1_8.big_sur.bottle.tar.gz",
-              "sha256": "b27394d053006562667ead4416d069224cdfc2c5ef3f8218b5dccecb2458f3f8"
+              "url": "https://homebrew.bintray.com/bottles/ffmpeg-4.3.1_9.big_sur.bottle.tar.gz",
+              "sha256": "275c815b5f3f59b5e7cf6f1097907a3ee7d92fac30536cb406e4e1c1ea6bbc06"
             },
             "arm64_big_sur": {
-              "url": "https://homebrew.bintray.com/bottles/ffmpeg-4.3.1_8.arm64_big_sur.bottle.tar.gz",
-              "sha256": "577ea3aad7c2ab97d189035e387b145862f066f9095559ec8694d64222ed9387"
+              "url": "https://homebrew.bintray.com/bottles/ffmpeg-4.3.1_9.arm64_big_sur.bottle.tar.gz",
+              "sha256": "4b4eb78995b8554bd2e66d925f388833acb2f2175f27dacaa1b9734b7e44ed81"
             },
             "catalina": {
-              "url": "https://homebrew.bintray.com/bottles/ffmpeg-4.3.1_8.catalina.bottle.tar.gz",
-              "sha256": "c11d8e31ab157bd7654ae06bd80981b98c9842cf0058af4db6c8d8e29b095ff1"
+              "url": "https://homebrew.bintray.com/bottles/ffmpeg-4.3.1_9.catalina.bottle.tar.gz",
+              "sha256": "89cd50ca4629382412ffe4efff3f80a2d4e608617259b11c439a0c3c842fe760"
             },
             "mojave": {
-              "url": "https://homebrew.bintray.com/bottles/ffmpeg-4.3.1_8.mojave.bottle.tar.gz",
-              "sha256": "2bf18e8f7feab77d575f34a31406d3d3d5c1517a6eb724a93366f55757cc6cfa"
+              "url": "https://homebrew.bintray.com/bottles/ffmpeg-4.3.1_9.mojave.bottle.tar.gz",
+              "sha256": "cd9b400426143c2a974dcf9da869210bf771250bd1951fe84364b1766b2dfbf6"
             }
           }
         }
       },
       "fnm": {
-        "version": "1.22.8",
+        "version": "1.22.9",
         "bottle": {
           "cellar": ":any_skip_relocation",
           "prefix": "/usr/local",
           "files": {
             "big_sur": {
-              "url": "https://homebrew.bintray.com/bottles/fnm-1.22.8.big_sur.bottle.tar.gz",
-              "sha256": "15e957f33a7474f9b41463f9de587db55fc2ac2c8ed7a9d120c108207376b763"
+              "url": "https://homebrew.bintray.com/bottles/fnm-1.22.9.big_sur.bottle.tar.gz",
+              "sha256": "9f073ff51580b262d00216ad4e507c6a4236137e0f625a24bacefbd2f29dad8b"
             },
             "catalina": {
-              "url": "https://homebrew.bintray.com/bottles/fnm-1.22.8.catalina.bottle.tar.gz",
-              "sha256": "785aedf913a65e97029e2bed1c3e52a686d3707245183dbee84056ef6057d3da"
+              "url": "https://homebrew.bintray.com/bottles/fnm-1.22.9.catalina.bottle.tar.gz",
+              "sha256": "e7ed8b7cee22c502179a0ac8754821eb396a397866c8da3e875343676f7c2e9f"
             },
             "mojave": {
-              "url": "https://homebrew.bintray.com/bottles/fnm-1.22.8.mojave.bottle.tar.gz",
-              "sha256": "8622fde031ee84e1ecf498250962b2be3972b9f161999e15ea64f50299b7e597"
-            },
-            "high_sierra": {
-              "url": "https://homebrew.bintray.com/bottles/fnm-1.22.8.high_sierra.bottle.tar.gz",
-              "sha256": "fb445426396192450f9b99ab43e798fa3dc18432ad25990d7b1c2ba5163783ad"
+              "url": "https://homebrew.bintray.com/bottles/fnm-1.22.9.mojave.bottle.tar.gz",
+              "sha256": "f764e8d198451d5e4311830d52b16fa3cdd6f2b2fd4ee459991fab7642c94a84"
             }
           }
         }
@@ -167,26 +163,26 @@
         }
       },
       "youtube-dl": {
-        "version": "2021.1.8",
+        "version": "2021.1.24.1",
         "bottle": {
           "cellar": ":any_skip_relocation",
           "prefix": "/usr/local",
           "files": {
             "big_sur": {
-              "url": "https://homebrew.bintray.com/bottles/youtube-dl-2021.1.8.big_sur.bottle.tar.gz",
-              "sha256": "71cfc3dd72360d9f1dabc947df11ad92ce9ac4f11d989203ca7dcaf48b2e6905"
+              "url": "https://homebrew.bintray.com/bottles/youtube-dl-2021.1.24.1.big_sur.bottle.tar.gz",
+              "sha256": "d6365fff0a0ebb8bf3124b6fc0982ecbc96fbba544b36ca2d538055d15c9a40e"
             },
             "arm64_big_sur": {
-              "url": "https://homebrew.bintray.com/bottles/youtube-dl-2021.1.8.arm64_big_sur.bottle.tar.gz",
-              "sha256": "5830a74e0fad078e68c5866deea607846bd70b1e7c47d430a19eeaf625e97170"
+              "url": "https://homebrew.bintray.com/bottles/youtube-dl-2021.1.24.1.arm64_big_sur.bottle.tar.gz",
+              "sha256": "425a3fb56e783ea5d696f1f77c99da20f11d4ed56350499ce3eec102e6e38a97"
             },
             "catalina": {
-              "url": "https://homebrew.bintray.com/bottles/youtube-dl-2021.1.8.catalina.bottle.tar.gz",
-              "sha256": "32cde0c3e4e40469eae6005df8e3f65fe0aa44aa69a65bb20e422d479571f560"
+              "url": "https://homebrew.bintray.com/bottles/youtube-dl-2021.1.24.1.catalina.bottle.tar.gz",
+              "sha256": "7241294d138df35a1bcb2cb85875b2641bd7c02ef4b1bc00a5294d09a0b2a9b5"
             },
             "mojave": {
-              "url": "https://homebrew.bintray.com/bottles/youtube-dl-2021.1.8.mojave.bottle.tar.gz",
-              "sha256": "be97c9636cc7faeaf814ec4332bd09c53d7833e2fdd912037542e5c99f32b37c"
+              "url": "https://homebrew.bintray.com/bottles/youtube-dl-2021.1.24.1.mojave.bottle.tar.gz",
+              "sha256": "a59855ed2c20d3fd2e3d469f1e1439e01f8d31da81d00b98e9dbcd4b2fa68bfd"
             }
           }
         }
@@ -279,46 +275,26 @@
         }
       },
       "pinentry-mac": {
-        "version": "0.9.4",
+        "version": "1.1.0.3",
         "bottle": {
-          "cellar": ":any_skip_relocation",
+          "cellar": ":any",
           "prefix": "/usr/local",
           "files": {
             "big_sur": {
-              "url": "https://homebrew.bintray.com/bottles/pinentry-mac-0.9.4.big_sur.bottle.tar.gz",
-              "sha256": "123dd2e07b5199d9096a4834257e5c000d270e72ecad185b9188578627aa413e"
+              "url": "https://homebrew.bintray.com/bottles/pinentry-mac-1.1.0.3.big_sur.bottle.tar.gz",
+              "sha256": "bf4fab5722e014d64397d0cc9078a95779f7b2553f858af4444ca913c3ce979f"
             },
             "arm64_big_sur": {
-              "url": "https://homebrew.bintray.com/bottles/pinentry-mac-0.9.4.arm64_big_sur.bottle.tar.gz",
-              "sha256": "203acdf241ddeb27258929c6902a8bd2f5f46cb0c4b82d3075cc88ec9a8bd0a1"
+              "url": "https://homebrew.bintray.com/bottles/pinentry-mac-1.1.0.3.arm64_big_sur.bottle.tar.gz",
+              "sha256": "b33a7f22470f2fc0f81fa45259c0d338196d0a2c1a4dff3ee7e38cc002c16744"
             },
             "catalina": {
-              "url": "https://homebrew.bintray.com/bottles/pinentry-mac-0.9.4.catalina.bottle.tar.gz",
-              "sha256": "936dba5c3bdd8279e5380012645a349a6ef8c69d1cc9066f28f9c6fa6642fd64"
+              "url": "https://homebrew.bintray.com/bottles/pinentry-mac-1.1.0.3.catalina.bottle.tar.gz",
+              "sha256": "149e9ddc31176346b936fbec386c49d3fb322132d65d415854033203ba1db467"
             },
             "mojave": {
-              "url": "https://homebrew.bintray.com/bottles/pinentry-mac-0.9.4.mojave.bottle.tar.gz",
-              "sha256": "6b2e8f260b2c9d2d7cd3f39516d7794656492cf7726a92a847aa86ba02d83179"
-            },
-            "high_sierra": {
-              "url": "https://homebrew.bintray.com/bottles/pinentry-mac-0.9.4.high_sierra.bottle.tar.gz",
-              "sha256": "aa7a00ec594541e43a74cf7ae16cb05317d5b73c7b6b6647ca349584280eaad7"
-            },
-            "sierra": {
-              "url": "https://homebrew.bintray.com/bottles/pinentry-mac-0.9.4.sierra.bottle.tar.gz",
-              "sha256": "3da6a88abbd4bb04eb2455d8e6998f4fc4db77c3f765d52b7eadf364e82aeaa7"
-            },
-            "el_capitan": {
-              "url": "https://homebrew.bintray.com/bottles/pinentry-mac-0.9.4.el_capitan.bottle.tar.gz",
-              "sha256": "c3d508c96256c50b6a62f9e64fc4cb28810a910927c21f7defbe8af11a3c5961"
-            },
-            "yosemite": {
-              "url": "https://homebrew.bintray.com/bottles/pinentry-mac-0.9.4.yosemite.bottle.tar.gz",
-              "sha256": "b96a51a263a9447101d4bb8dc4247f324531bd4fd96218f6e170edfc983a87f7"
-            },
-            "mavericks": {
-              "url": "https://homebrew.bintray.com/bottles/pinentry-mac-0.9.4.mavericks.bottle.tar.gz",
-              "sha256": "c2538b57edce2eb7ccc10a32e16ccfbbbe8e61c384c4db8d5a62b04d3815c0ed"
+              "url": "https://homebrew.bintray.com/bottles/pinentry-mac-1.1.0.3.mojave.bottle.tar.gz",
+              "sha256": "90c757fe0590e14c8e2d13a6e11629eb1f6893696b720b849a19db09b3c932dd"
             }
           }
         }
@@ -378,7 +354,7 @@
         }
       },
       "calibre": {
-        "version": "5.9.0",
+        "version": "5.10.1",
         "options": {
           "full_name": "calibre"
         }
@@ -528,7 +504,7 @@
         }
       },
       "flipper": {
-        "version": "0.70.0",
+        "version": "0.72.0",
         "options": {
           "full_name": "flipper"
         }
@@ -537,6 +513,18 @@
         "version": "3.12,1061",
         "options": {
           "full_name": "zeplin"
+        }
+      },
+      "postman": {
+        "version": "7.36.1",
+        "options": {
+          "full_name": "postman"
+        }
+      },
+      "kaleidoscope": {
+        "version": "2.3.6,1447-jan-18-2021",
+        "options": {
+          "full_name": "kaleidoscope"
         }
       }
     },
@@ -556,11 +544,11 @@
   "system": {
     "macos": {
       "big_sur": {
-        "HOMEBREW_VERSION": "2.7.2",
+        "HOMEBREW_VERSION": "2.7.5",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "8a6807be6abb44634e7d6d153348b6bba2a5ddc6",
-        "CLT": "12.3.0.0.1.1607026830",
-        "Xcode": "12.3",
+        "Homebrew/homebrew-core": "0ff720707884f77f774b20a7e9d1d9060a4d45f3",
+        "CLT": "12.4.0.0.1.1610135815",
+        "Xcode": "12.4",
         "macOS": "11.1"
       }
     }
