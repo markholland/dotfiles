@@ -30,9 +30,9 @@ cask "sf-symbols"
 cask "visual-studio-code"
 
 mas "apple-developer", id: 640199958
+mas "devcleaner-for-xcode", id: 1388020431
 mas "pixelmator-pro", id: 1289583905
 mas "reeder", id: 1529448980
 mas "the-unarchiver", id: 425424353
 mas "tweetbot", id: 1384080005
-mas "twilio-authy", id: 494168017
 
