@@ -14,11 +14,20 @@ ZSH_DISABLE_COMPFIX=true
 source $ZSH/oh-my-zsh.sh
 source ~/.zsh/aliases.zsh
 
-eval "$(fnm env)"
+
+export ANDROID_HOME="$HOME/Library/Android/sdk"
+export ANDROID_AVD_HOME="$HOME/.android/avd"
+export ANDROID_SDK_ROOT="$HOME/Library/Android/sdk"
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/tools/bin
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+export PATH=$PATH:$ANDROID_HOME/cmdline-tools/latest/bin
+export PATH=$PATH:/opt/homebrew/bin
+export PATH=$PATH:/usr/local/bin
 
 # zsh highlighting
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 ZSH_HIGHLIGHT_STYLES[globbing]='fg=yellow'
 ZSH_HIGHLIGHT_STYLES[default]='bold'
 ZSH_HIGHLIGHT_STYLES[path]='none'
-
