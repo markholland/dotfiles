@@ -18,7 +18,6 @@ brew "youtube-dl"
 brew "zsh-syntax-highlighting"
 
 cask "1password"
-cask "audirvana"
 cask "docker"
 cask "firefox-developer-edition"
 cask "gpg-suite"
@@ -31,6 +30,9 @@ cask "visual-studio-code"
 
 mas "apple-developer", id: 640199958
 mas "devcleaner-for-xcode", id: 1388020431
+mas "keynote", id: 409183694
+mas "numbers", id: 409203825
+mas "pages", id: 409201541
 mas "pixelmator-pro", id: 1289583905
 mas "reeder", id: 1529448980
 mas "the-unarchiver", id: 425424353
