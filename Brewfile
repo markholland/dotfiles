@@ -18,14 +18,15 @@ brew "youtube-dl"
 brew "zsh-syntax-highlighting"
 
 cask "1password"
-cask "docker"
+cask "android-studio"
 cask "firefox-developer-edition"
+cask "flipper"
 cask "gpg-suite"
 cask "iterm2"
-cask "kaleidoscope"
 cask "nordvpn"
 cask "omnifocus"
 cask "sf-symbols"
+cask "slack"
 cask "visual-studio-code"
 
 mas "apple-developer", id: 640199958
@@ -37,4 +38,5 @@ mas "pixelmator-pro", id: 1289583905
 mas "reeder", id: 1529448980
 mas "the-unarchiver", id: 425424353
 mas "tweetbot", id: 1384080005
+mas "twilio-auth", id: 494168017
 
