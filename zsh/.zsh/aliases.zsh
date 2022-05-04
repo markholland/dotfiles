@@ -4,7 +4,8 @@ alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
 alias fix='$(thefuck $(fc -ln -1))'
-
+alias yran="yarn"
+alias yanr="yarn"
 alias gti="git"
 
 alias reverseProxy="ssh -R 80:localhost:19006 ssh.localhost.run"

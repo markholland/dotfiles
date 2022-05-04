@@ -13,7 +13,7 @@ plugins=(gitfast adb last-working-dir)
 ZSH_DISABLE_COMPFIX=true
 source $ZSH/oh-my-zsh.sh
 source ~/.zsh/aliases.zsh
-
+eval "$(fnm env --use-on-cd)"
 
 export ANDROID_HOME="$HOME/Library/Android/sdk"
 export ANDROID_AVD_HOME="$HOME/.android/avd"
@@ -25,6 +25,9 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
 export PATH=$PATH:$ANDROID_HOME/cmdline-tools/latest/bin
 export PATH=$PATH:/opt/homebrew/bin
 export PATH=$PATH:/usr/local/bin
+
+export BROWSERSLIST_DISABLE_CACHE=1
+export BROWSERSLIST_IGNORE_OLD_DATA=true
 
 # zsh highlighting
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
