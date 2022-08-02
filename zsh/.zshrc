@@ -14,6 +14,7 @@ ZSH_DISABLE_COMPFIX=true
 source $ZSH/oh-my-zsh.sh
 source ~/.zsh/aliases.zsh
 eval "$(fnm env --use-on-cd)"
+eval "$(rbenv init - zsh)"
 
 export ANDROID_HOME="$HOME/Library/Android/sdk"
 export ANDROID_AVD_HOME="$HOME/.android/avd"

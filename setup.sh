@@ -28,3 +28,9 @@ mkdir -p ~/.vim/autoload ~/.vim/bundle && \
     curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 
 open Snazzy.itermcolors
+
+# Flipper
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.p
+python3 get-pip.py
+rm get-pip.py
+pip install fb-idb
