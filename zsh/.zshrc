@@ -26,6 +26,7 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
 export PATH=$PATH:$ANDROID_HOME/cmdline-tools/latest/bin
 export PATH=$PATH:/opt/homebrew/bin
 export PATH=$PATH:/usr/local/bin
+export PATH=$PATH:"$HOME/Library/Python/3.8/bin"
 
 export BROWSERSLIST_DISABLE_CACHE=1
 export BROWSERSLIST_IGNORE_OLD_DATA=true

@@ -30,7 +30,7 @@ mkdir -p ~/.vim/autoload ~/.vim/bundle && \
 open Snazzy.itermcolors
 
 # Flipper
-curl https://bootstrap.pypa.io/get-pip.py -o get-pip.p
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 python3 get-pip.py
 rm get-pip.py
 pip install fb-idb
