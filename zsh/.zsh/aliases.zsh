@@ -12,4 +12,4 @@ alias reverseProxy="ssh -R 80:localhost:19006 ssh.localhost.run"
 
 alias recordSim="xcrun simctl io booted recordVideo file.mov"
 
-alias openAndroidStudio="open -a /Applications/Android\ Studio\ Preview.app ~/Documents/catenda/bimsync-mobile/android/"
+alias openAndroidStudio="open -a /Applications/Android\ Studio.app ~/Documents/catenda/bimsync-mobile/android/"
