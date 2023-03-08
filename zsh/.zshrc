@@ -30,6 +30,8 @@ export PATH=$PATH:"$HOME/Library/Python/3.8/bin"
 
 export BROWSERSLIST_DISABLE_CACHE=1
 export BROWSERSLIST_IGNORE_OLD_DATA=true
+export REACT_NATIVE_DOWNLOADS_DIR="$HOME/Downloads/"
+export ANDROID_EMULATOR_WAIT_TIME_BEFORE_KILL=1
 
 # zsh highlighting
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
