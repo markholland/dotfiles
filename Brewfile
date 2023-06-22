@@ -48,6 +48,4 @@ mas "pages", id: 409201541
 mas "pixelmator-pro", id: 1289583905
 mas "reeder", id: 1529448980
 mas "the-unarchiver", id: 425424353
-mas "tweetbot", id: 1384080005
-mas "twilio-auth", id: 494168017
 
