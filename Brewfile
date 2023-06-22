@@ -1,7 +1,6 @@
 tap "homebrew/core"
 tap "homebrew/bundle"
 tap "homebrew/services"
-tap "homebrew/cask-drivers"
 tap "homebrew/cask-versions"
 tap "schniz/tap"
 tap "facebook/fb"
@@ -13,6 +12,7 @@ brew "gnupg2"
 brew "gpg"
 brew "idb-companion"
 brew "pinentry-mac"
+brew "rbenv"
 brew "stow"
 brew "switchaudio-osx"
 brew "watchman"
@@ -38,6 +38,7 @@ cask "sf-symbols"
 cask "slack"
 cask "tower"
 cask "visual-studio-code"
+cask "zulu11"
 
 mas "apple-developer", id: 640199958
 mas "devcleaner-for-xcode", id: 1388020431
