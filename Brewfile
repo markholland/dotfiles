@@ -1,7 +1,6 @@
 tap "homebrew/core"
 tap "homebrew/bundle"
 tap "homebrew/services"
-tap "homebrew/cask-drivers"
 tap "homebrew/cask-versions"
 tap "schniz/tap"
 tap "facebook/fb"
@@ -39,6 +38,7 @@ cask "sf-symbols"
 cask "slack"
 cask "tower"
 cask "visual-studio-code"
+cask "zulu11"
 
 mas "apple-developer", id: 640199958
 mas "devcleaner-for-xcode", id: 1388020431
@@ -48,6 +48,4 @@ mas "pages", id: 409201541
 mas "pixelmator-pro", id: 1289583905
 mas "reeder", id: 1529448980
 mas "the-unarchiver", id: 425424353
-mas "tweetbot", id: 1384080005
-mas "twilio-auth", id: 494168017
 
