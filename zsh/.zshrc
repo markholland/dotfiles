@@ -14,6 +14,7 @@ ZSH_DISABLE_COMPFIX=true
 source $ZSH/oh-my-zsh.sh
 source ~/.zsh/aliases.zsh
 eval "$(fnm env --use-on-cd)"
+eval "$(jenv init -)"
 eval "$(rbenv init - zsh)"
 
 export ANDROID_HOME="$HOME/Library/Android/sdk"
@@ -27,11 +28,18 @@ export PATH=$PATH:$ANDROID_HOME/cmdline-tools/latest/bin
 export PATH=$PATH:/opt/homebrew/bin
 export PATH=$PATH:/usr/local/bin
 export PATH=$PATH:"$HOME/Library/Python/3.8/bin"
+export PATH=$PATH:$HOME/.maestro/bin
+export PATH="$HOME/.jenv/bin:$PATH"
+# export JAVA_HOME=`/usr/libexec/java_home -v 11.0.20` # Zulu 11
+export JAVA_HOME=`/usr/libexec/java_home -v 17.0.9` # Zulu 17
+# export JAVA_HOME=`/usr/libexec/java_home -v 1.8.0_382` # Corretto 8
 
+export ANDROID_EMULATOR_WAIT_TIME_BEFORE_KILL=1
+export BIMSYNC_LOCAL_STORAGE="$HOME/Documents/catenda/bimsync/ignoreStorage"
 export BROWSERSLIST_DISABLE_CACHE=1
 export BROWSERSLIST_IGNORE_OLD_DATA=true
+export CLOUD_ENVIRONMENT='local'
 export REACT_NATIVE_DOWNLOADS_DIR="$HOME/Downloads/"
-export ANDROID_EMULATOR_WAIT_TIME_BEFORE_KILL=1
 
 # zsh highlighting
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

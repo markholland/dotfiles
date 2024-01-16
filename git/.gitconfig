@@ -14,6 +14,7 @@
 	editor = code --wait
 	autocrlf = input
 	pager = diff-so-fancy | less --tabs=4 -RFX
+	ignorecase = false
 [commit]
 	gpgsign = true
 [gpg]
